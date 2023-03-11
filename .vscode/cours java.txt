@@ -1,0 +1,33 @@
+LES RACCOURCI VSCODE POUR JAVA
+
+//sout-> System.out.println
+//main
+//ctor-> constructeur public
+// les champs(proprietes) sont à 80% prive
+// prf->propriete prive
+// public_methode: -> crée une méthode public
+// private_methode: -> crée une méthode privée
+// public_staic_methode: -> crée une méthode public static
+// private_static_methode: -> crée une méthode privée static
+// protected_methode: -> crée une méthode protected
+// protected_methode: -> crée une méthode protected
+//if,ifelse,for,fori,while,dowhile
+
+
+LES TABLEAUX
+for(stmt1;stmt2;stmt3){}
+for (int num:arr){num}
+
+ OVERLOAD 
+ (meme nom de fonction avec parametres différents): il s'effectue dans la meme classe.
+Ex:int myMethod(int x)
+float myMethod(float x)
+double myMethod(double x, double y)
+le overload ne peut etre effectué en changeant uniquement le type de retour de la méthode. le type de retour peut etre identique ou different. Mais nous devons aussi changé les parametres.*/ 
+
+OVERWRITE:
+ Elle est utilisée pour fournir une implementation specificique d'une methode déjà fournie dans la superclasse: il s'effectue dans deux classes ayant une relation d'héritage.(les paramètres sont identiques dans ce cas). le type de retour doit etre identique*/
+
+ FINAL
+ - Champ (propriete): final sur un champ empêche le changement de la valeur de cette propriété.
+ Ex: final private String name="john"; lorsqu'il y a final sur une methode, alors le overwrite n'est plus possible.
